@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".TopNav.ConnectFragment">
+
+    <TextView
+        android:id="@+id/My_Make_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Make Group"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/chat_light"
+        android:drawablePadding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:drawableRight="@drawable/arow"
+        android:layout_marginRight="20dp"
+        />
+
+</FrameLayout>

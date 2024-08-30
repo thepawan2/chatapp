@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "525322744849",
+    "project_id": "chatsguru-3e860",
+    "storage_bucket": "chatsguru-3e860.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525322744849:android:b07924320de73debb42db0",
+        "android_client_info": {
+          "package_name": "com.example.chatguru"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuxJjwZkmzdPvvl5P8rl7Tg2te6hioDGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

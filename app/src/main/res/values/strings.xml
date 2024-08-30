@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">chatguru</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="sign_out">Sign out  </string>
+
+    <string name="resend_otp_timer">Resend OTP in %1$d seconds</string>
+    <string name="resend_otp">Resend OTP</string>
+</resources>

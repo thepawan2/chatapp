@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F6F8F8"
+    tools:context=".SideNavigationActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/backbtnimg"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/cross_23"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Me"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:elevation="12dp"
+            android:id="@+id/view2"
+            app:cardCornerRadius="40dp"
+            android:layout_centerHorizontal="true"
+            android:innerRadius="0dp"
+            android:shape="ring"
+            android:layout_marginLeft="20dp"
+            android:thicknessRatio="1.9">
+            <ImageView
+                android:layout_height="60dp"
+                android:layout_width="match_parent"
+                android:id="@+id/imageView1"
+                android:src="@drawable/man"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true">
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/sidenavname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="...."
+                android:textSize="18dp"
+                android:layout_gravity="left"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sidenavemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="..."
+                android:textSize="15dp"
+                android:layout_gravity="left"
+                android:layout_marginTop="5dp"
+                />
+            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/qr"
+                android:layout_gravity="end"
+               android:layout_marginRight="30dp"/>
+            
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/switch_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Switch Account"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/transger_light"
+            android:drawablePadding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:drawableRight="@drawable/arow"
+            android:layout_marginRight="20dp"
+            />
+
+
+        <TextView
+            android:id="@+id/security_privacy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Security &amp; Privacy"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/lock_light"
+            android:drawablePadding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:drawableRight="@drawable/arow"
+            android:layout_marginRight="20dp"
+            />
+
+        <TextView
+            android:id="@+id/setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Setting"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/setting_line_light"
+            android:drawablePadding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:drawableRight="@drawable/arow"
+            android:layout_marginRight="20dp"
+            />
+
+        <TextView
+            android:id="@+id/chatston_voice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chatston Voice"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/union"
+            android:drawablePadding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:drawableRight="@drawable/arow"
+            android:layout_marginRight="20dp"
+            />
+
+        <TextView
+            android:id="@+id/share_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share Profile"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/line_out_alt_light"
+            android:drawablePadding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:drawableRight="@drawable/arow"
+            android:layout_marginRight="20dp"
+            />
+
+        <TextView
+            android:id="@+id/help_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Help &amp; Feedback"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/group_65"
+            android:drawablePadding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:drawableRight="@drawable/arow"
+            android:layout_marginRight="20dp"
+            />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/Logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:drawableRight="@drawable/signuparow"
+            android:drawablePadding="10dp"
+            android:textSize="18sp"
+            android:background="@drawable/btn_design"
+            android:text="@string/sign_out"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:src="@drawable/wave_get"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
